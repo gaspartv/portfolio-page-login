@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <script defer type="module" src="./src/js/index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Loja Virtual</h1>
+        <h3>Os melhores produtos e ofertas</h3>
+    </header>
+    <main>
+        <form class="main__login">
+            <h2 class="main__title">Login</h2>
+            <input class="main__input" type="text" placeholder="Digite seu e-mail">
+            <input class="main__input" type="text" placeholder="Digite sua senha">
+            <p id="recoverPassword">esqueci minha senha</p>
+            <button class="main__button">Entrar</button>
+        </form>
+        <section class="main__restore hidden">
+            <form class="main__modal">
+                <div>
+                    <h2 class="main__title">Recuperar senha</h2>
+                    <button class="main__closed">X</button>
+                </div>
+                <p>Digite seu e-mail de recuperação</p>
+                <input class="main__input" type="text" placeholder="E-mail de recuperação">
+                <button class="main__button">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
